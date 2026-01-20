@@ -1,4 +1,4 @@
-import heroavatar from "../../../assets/images/heroavatar.png"
+import heroavatar from "../../assets/images/heroavatar.png"
 
 export default function Hero() {
 
