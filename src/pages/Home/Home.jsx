@@ -1,9 +1,9 @@
-function Home() {
-  return (
-    <>
-      <h1>Home</h1>
-    </>
-  )
-}
+import Hero from "./Hero/Hero";
 
-export default Home
+export default function Home() {
+  
+    return (
+    
+        <Hero/>
+    );
+}; 
