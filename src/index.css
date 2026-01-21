@@ -1,5 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300;400;500;600;700&display=swap");
+
+:root {
+  
+  /*Typography*/
+
+  --font-family-main: "Kumbh Sans", sans-serif;
+
+  --font-size-xs: 0.75rem;
+  --font-size-sm: 0.875rem;
+  --font-size-base: 1rem;
+  --font-size-lg: 1.125rem;
+  --font-size-xl: 1.5rem;
+  --font-size-2xl: 2rem;
+  --font-size-3xl: 2.5rem;
+
+  --font-weight-regular: 400;
+  --font-weight-medium: 500;
+  --font-weight-bold: 700;
+
+  /*Colors*/
+  
+  --color-text-main: #ffffff;
+  --color-text-muted: #a9b4c7;
+  --color-text-subtle: #7f8fa6;
+  
+  --color-primary: #5fb3d9;
+  --color-primary-hover: #7cc7e8;
+
+  --color-bg-dark: #0b1220;
+  --color-bg-main: #0f1f3a;
+  --color-bg-light: #1f3b63;
+
+  --background-color: linear-gradient(
+    90deg,
+    var(--color-bg-dark) 0%,
+    var(--color-bg-main) 45%,
+    var(--color-bg-light) 100%
+  );
+  
+  /*Breakpoints*/
+
+  --tablet-min-width: 768px;
+  --desktop-min-width:1024px;
+  --ldesktop-min-width:1200px;
+  
+  /*Layout*/
+  
+  --container-max-width: 1200px;
+
+}
+
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 html, body {
@@ -9,10 +63,14 @@ html, body {
 }
 
 body {
-  background: linear-gradient(
-    90deg,
-    #0b1220 0%,
-    #0f1f3a 45%,
-    #1f3b63 100%
-);
+  
+  
+  font-family: var(--font-family-main);
+  font-size: var(--font-size-base);
+  font-weight: var(--font-weight-regular);
+  
+  color: var(--color-text-main);
+  background: var(--background-color);
+
+  padding: 1rem;
 }
