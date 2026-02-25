@@ -71,8 +71,7 @@ html, body {
 }
 
 body {
-  
-  
+
   font-family: var(--font-family-main);
   font-size: var(--font-size-base);
   font-weight: var(--font-weight-regular);

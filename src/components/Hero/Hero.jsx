@@ -1,9 +1,11 @@
 import heroavatar from "../../assets/images/heroavatar.png"
+import { HeroSection } from "./Hero.styles.jsx";
+
 
 export default function Hero() {
 
     return (
-        <section>
+        <HeroSection>
             <div className="container">
                 <div className="hero__content">
                     <div className="text__content">
@@ -19,14 +21,14 @@ export default function Hero() {
                             a fim de criar experiências web incríveis.
                         </p>
                     </div>
-                <div className="image__content">
-                    <img
-                        src={heroavatar}
-                        alt="Ilustração de um desenvolvedor trabalhando em um notebook"
-                    />
+                    <div className="image__content">
+                        <img
+                            src={heroavatar}
+                            alt="Ilustração de um desenvolvedor trabalhando em um notebook"
+                        />
+                    </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </HeroSection>
     );
 };
