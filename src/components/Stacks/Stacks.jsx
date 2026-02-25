@@ -1,0 +1,31 @@
+import stackData from "../../Data/stack.json";
+
+export default function Stack() {
+  return (
+    <section>
+      <div className="container">
+        <div className="stack__content">
+          <h2>Tecnologias</h2>
+
+          {Object.entries(stackData).map(([category, items]) => (
+            <div className="stack__group" key={category}>
+              <h3>{category.charAt(0).toUpperCase() + category.slice(1)}</h3>
+              <ul>
+                {items.map((tech) => (
+                  <li key={tech.name}>
+                    <img src={tech.logo} alt={`${tech.name} logo`} />
+                    <span>{tech.name}</span>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          ))}
+
+          <a href="#" target="_blank" rel="noopener noreferrer">
+            Ver histórico de cursos →
+          </a>
+        </div>
+      </div>
+    </section>
+  );
+}

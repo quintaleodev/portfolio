@@ -1,0 +1,14 @@
+{
+  "fundamentos": [
+    { "name": "HTML", "logo": "src/assets/logos/html5.svg" },
+    { "name": "CSS", "logo": "src/assets/logos/css3.svg" },
+    { "name": "JavaScript", "logo": "src/assets/logos/javascript.svg" }
+  ],
+  "framework": [
+    { "name": "React", "logo": "src/assets/logos/react.svg" }
+  ],
+  "ferramentas": [
+    { "name": "Git", "logo": "src/assets/logos/git.svg" },
+    { "name": "Vite", "logo": "src/assets/logos/vite.svg" }
+  ]
+}
