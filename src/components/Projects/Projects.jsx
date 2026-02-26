@@ -16,11 +16,14 @@ export default function Projects() {
                                 target="_blank" 
                                 rel="noopener noreferrer"
                             >
-                                <img src={project.image} 
+                                <img className="card__image" 
+                                    src={project.image} 
                                     alt={project.name}
                                 />
-                                <h2>{project.name}</h2>
-                                <p>{project.description}</p>
+                                <div className="card__info">
+                                    <h2>{project.name}</h2>
+                                    <p>{project.description}</p>
+                                </div>
                             </a>
                         )
                         )}
