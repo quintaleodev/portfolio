@@ -14,7 +14,8 @@ export default function Stack() {
               <ul>
                 {items.map((tech) => (
                   <li key={tech.name}>
-                    <img src={tech.logo} alt={`${tech.name} logo`} />
+                    <img src={tech.logo} 
+                          alt={`${tech.name} logo`} />
                     <span>{tech.name}</span>
                   </li>
                 ))}

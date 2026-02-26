@@ -1,0 +1,22 @@
+{
+  "projects": [
+    {
+      "name": "Projeto em construção",
+      "description": "Ainda estou trabalhando para postar um projeto bonitão aqui",
+      "image": "src/assets/images/workingCat.gif",
+      "link": "#"
+    },
+    {
+      "name": "Projeto em construção",
+      "description": "Ainda estou trabalhando para postar um projeto bonitão aqui",
+      "image": "src/assets/images/workingCat2.gif",
+      "link": "#"
+    },
+    {
+      "name": "Projeto em construção",
+      "description": "Ainda estou trabalhando para postar um projeto bonitão aqui",
+      "image": "src/assets/images/workingCat3.gif",
+      "link": "#"
+    }
+  ]
+}
