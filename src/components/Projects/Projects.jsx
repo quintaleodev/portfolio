@@ -25,8 +25,7 @@ export default function Projects() {
                                     <p>{project.description}</p>
                                 </div>
                             </a>
-                        )
-                        )}
+                        ))}
                     </div>
                 </div>
             </div>

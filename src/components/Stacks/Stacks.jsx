@@ -22,7 +22,6 @@ export default function Stack() {
               </ul>
             </div>
           ))}
-
           <a href="https://cursos.alura.com.br/user/baqleo/fullCertificate/3f4c8250db03b8e5eca27be709c4a121" 
               target="_blank" 
               rel="noopener noreferrer"
