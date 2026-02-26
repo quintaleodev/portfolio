@@ -71,7 +71,7 @@ html, body {
 
 body {
 
-  background-color: var(--background-color);
+  background: var(--background-color);
   font-family: var(--font-family-main);
   font-size: var(--font-size-base);
   font-weight: var(--font-weight-regular);
@@ -80,7 +80,8 @@ body {
   
   padding-top: var(--spacing-md);
   padding-bottom: var(--spacing-md);
-  
+  padding-left: var(--spacing-md);
+  padding-right: var(--spacing-md);  
 }
 
 .container {
@@ -89,9 +90,6 @@ body {
   
   margin-left: auto;
   margin-right: auto;
-  
-  padding-left: var(--spacing-md);
-  padding-right: var(--spacing-md);
   
   background: var(--background-color);
 }
