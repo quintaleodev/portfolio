@@ -20,6 +20,8 @@
 
   /*Colors*/
   
+  --title-line-color: rgba(255, 255, 255, .10);
+
   --color-text-main: #ffffff;
   --color-text-muted: #a9b4c7;
   --color-text-subtle: #7f8fa6;
@@ -80,8 +82,7 @@ body {
   
   padding-top: var(--spacing-md);
   padding-bottom: var(--spacing-md);
-  padding-left: var(--spacing-md);
-  padding-right: var(--spacing-md);  
+
 }
 
 .container {
@@ -90,13 +91,18 @@ body {
   
   margin-left: auto;
   margin-right: auto;
-  
+  padding-left: var(--spacing-md);
+  padding-right: var(--spacing-md);  
+
+
   background: var(--background-color);
+  
 }
 
 @media (min-width: 768px) {
-  .container {
-    padding-left: var(--spacing-lg);
-    padding-right: var(--spacing-lg);
+  
+  body {
+    padding: var(--spacing-lg);
+    
   }
 }

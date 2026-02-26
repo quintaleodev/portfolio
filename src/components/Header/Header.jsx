@@ -5,9 +5,10 @@ export default function Header () {
     return (
         
         <HeaderSection>
-            <span>Portfólio pessoal - Leonardo Quintanilha</span>
-        </HeaderSection>
+            <span>
+                Portfólio pessoal 
 
-        
+            </span>
+        </HeaderSection>
     )
 };
