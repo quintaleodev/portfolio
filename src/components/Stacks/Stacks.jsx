@@ -1,8 +1,9 @@
 import stackData from "../../Data/stack.json";
+import { StackSection} from "./Stack.styles.jsx";
 
 export default function Stack() {
   return (
-    <section>
+    <StackSection>
       <div className="container">
         <div className="stack__content">
           <h2>Tecnologias</h2>
@@ -29,6 +30,6 @@ export default function Stack() {
           </a>
         </div>
       </div>
-    </section>
+    </StackSection>
   );
 }
