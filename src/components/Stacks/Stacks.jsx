@@ -21,8 +21,11 @@ export default function Stack() {
             </div>
           ))}
 
-          <a href="#" target="_blank" rel="noopener noreferrer">
-            Ver histórico de cursos →
+          <a href="https://cursos.alura.com.br/user/baqleo/fullCertificate/3f4c8250db03b8e5eca27be709c4a121" 
+              target="_blank" 
+              rel="noopener noreferrer"
+          >
+            Certificado de cursos de front-end e outros diversos concluídos na plataforma Alura
           </a>
         </div>
       </div>
