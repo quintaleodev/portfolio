@@ -5,7 +5,7 @@ export default function Projects() {
 
     return (
         <ProjectsSection>
-            <div className="Container">
+            <div className="container">
                 <div className="projects__content">
                     <h2>Projetos</h2>
                     <div className="cards__container">

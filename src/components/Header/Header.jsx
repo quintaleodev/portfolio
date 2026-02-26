@@ -1,8 +1,13 @@
+import { HeaderSection } from "./Header.styles"
+
 export default function Header () {
 
     return (
-        <header className="container">
+        
+        <HeaderSection>
             <span>Portfólio pessoal - Leonardo Quintanilha</span>
-        </header>
+        </HeaderSection>
+
+        
     )
 };

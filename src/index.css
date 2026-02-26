@@ -30,13 +30,12 @@
   --color-bg-dark: #0b1220;
   --color-bg-main: #0f1f3a;
   --color-bg-light: #1f3b63;
-
-  --background-color: linear-gradient(
-    90deg,
-    var(--color-bg-dark) 0%,
-    var(--color-bg-main) 45%,
-    var(--color-bg-light) 100%
-  );
+  --background-color: linear-gradient( 
+      90deg, var(--color-bg-dark) 0%,
+      var(--color-bg-main) 45%, 
+      var(--color-bg-light) 100%);
+  
+  --background-color-radient: radial-gradient(at right bottom, #203C64,#0f1f3a, #0B1320);
   
   /*Breakpoints*/
 
@@ -72,27 +71,29 @@ html, body {
 
 body {
 
+  background-color: var(--background-color);
   font-family: var(--font-family-main);
   font-size: var(--font-size-base);
   font-weight: var(--font-weight-regular);
   
   color: var(--color-text-main);
-  background: var(--background-color);
-
+  
   padding-top: var(--spacing-md);
   padding-bottom: var(--spacing-md);
-
+  
 }
 
 .container {
   width: 100%;
   max-width: var(--container-max-width);
-
+  
   margin-left: auto;
   margin-right: auto;
-
+  
   padding-left: var(--spacing-md);
   padding-right: var(--spacing-md);
+  
+  background: var(--background-color);
 }
 
 @media (min-width: 768px) {
