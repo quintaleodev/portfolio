@@ -9,6 +9,7 @@
   ],
   "ferramentas": [
     { "name": "Git", "logo": "src/assets/logos/git.svg" },
-    { "name": "Vite", "logo": "src/assets/logos/vite.svg" }
+    { "name": "Vite", "logo": "src/assets/logos/vite.svg" },
+    { "name": "Figma", "logo": "src/assets/logos/figma.svg" }
   ]
 }

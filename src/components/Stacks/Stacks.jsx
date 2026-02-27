@@ -27,7 +27,7 @@ export default function Stack() {
                 target="_blank" 
                 rel="noopener noreferrer"
             >
-              Certificados de cursos de front-end e outros diversos concluídos na plataforma Alura - clique para visualisar
+              Certificados de cursos de front-end e outros diversos concluídos na plataforma Alura - clique para visualizar
             </a>
           </div>
         </div>
