@@ -2,5 +2,65 @@ import styled from "styled-components";
 
 export const StackSection = styled.section`
 
-    display: flex;
+    .stack__content {
+
+        display: flex;
+        flex-direction: column;
+        gap: var(--spacing-sm);
+    }
+
+    .stack__content--title {
+
+        font-size: var(--font-size-lg);
+        width: 100%;
+        border-bottom: 1px solid var(--title-line-color);
+        padding-bottom: var(--spacing-sm);
+    }
+
+    .stack__content--content{
+        
+        display: flex;
+        flex-direction: column;
+        gap: var(--spacing-sm);
+    }
+
+    .stack__group{
+
+        display: flex;
+        flex-direction: column;
+        gap: var(--spacing-xs);
+    }
+
+    .stack__category{
+
+        font-size: var(--font-size-lg);
+    }
+
+    .stack__category--list{
+        
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        gap: var(--spacing-xs);
+    }
+
+    .tech{
+
+        display: flex;
+        gap: var(--spacing-sm);
+        align-items: center;
+        padding-left: var(--spacing-xs);
+    }
+    .tech--logo {
+        
+        width: var(--font-size-xl);
+        filter: invert(1);
+    }
+
+    a {
+        text-decoration: none;
+        color: white;
+        border: 1px solid var(--title-line-color);
+        padding: var(--spacing-xs);
+    }
 `;
