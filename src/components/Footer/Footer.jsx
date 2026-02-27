@@ -30,10 +30,10 @@ export default function Footer(){
                                 alt="linkedin logo" 
                             />
                         </a>
+                    </div>
                         <a href={`mailto:${contactData.email}`}>
                             {contactData.email}
                         </a>        
-                    </div>
                     <p className="footer__copy">
                         {contactData.name} - {contactData.location} - {new Date().getFullYear()}
                     </p>
