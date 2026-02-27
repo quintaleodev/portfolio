@@ -7,10 +7,11 @@ export default function Projects() {
         <ProjectsSection>
             <div className="container">
                 <div className="projects__content">
-                    <h2>Projetos</h2>
+                    <h2 className="projects__content--title">Meus Projetos</h2>
                     <div className="cards__container">
+                        <span>Confira alguns de meus trabalhos recentes:</span>
                         {projectData.projects.map((project, index) => (
-                            <a className="card" 
+                            <a className="card__container" 
                                 key={index}
                                 href={project.link} 
                                 target="_blank" 
@@ -21,8 +22,8 @@ export default function Projects() {
                                     alt={project.name}
                                 />
                                 <div className="card__info">
-                                    <h2>{project.name}</h2>
-                                    <p>{project.description}</p>
+                                    <h3 className="card__info--title">{project.name}</h3>
+                                    <p className="card__info--text">{project.description}</p>
                                 </div>
                             </a>
                         ))}
