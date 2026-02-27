@@ -5,30 +5,60 @@ export const HeroSection = styled.section`
 
   .hero__content {
     display: flex;
-    flex-direction: row;
-    align-items: center;
-    gap: .5rem;
+    width: 100%;
     align-items: flex-end;
     position: relative;
   }
 
   .text__content {
-    width: 100%;
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    z-index: 1;
+    gap: var(--spacing-sm);
+  }
+
+  h1 {
+
+    font-size: var(--font-size-xl);
+    border-bottom: 1px solid var(--title-line-color);
+    padding-bottom: var(--spacing-sm);
+    
+  }
+  
+  strong{
+    
+    color: var(--color-primary);
   }
 
   .image__content {
-    width: 100%;
-    display: flex;
-    justify-content: flex-end;
     
+    display: flex;
     position: absolute;
-    z-index: -1;
+    z-index: 0;
+    width: 100%;
+    overflow: hidden;
+    height: 100%;
+    
   }
 
   img {
-    width: 66%;
-    max-width: 280px;
-    height: auto;
-    display: block;
+    
+    height: 100%;
+    width: auto;
+    object-fit: cover;
+    max-width: 75%;
+    margin-left: auto;
+    -webkit-mask-image: linear-gradient(to right, 
+    transparent 0%, 
+    black 50%
+    );
+
+    mask-image: linear-gradient(to right, 
+      transparent 0%, 
+      black 50%
+    );
+
   }
 `;

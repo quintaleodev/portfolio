@@ -91,13 +91,13 @@ body {
   
   margin-left: auto;
   margin-right: auto;
-  padding-left: var(--spacing-md);
-  padding-right: var(--spacing-md);  
-
-
-  background: var(--background-color);
+  padding: var(--spacing-md);
+   
+  background: var(--background-color-radient);
   
 }
+
+
 
 @media (min-width: 768px) {
   

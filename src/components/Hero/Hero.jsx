@@ -11,7 +11,7 @@ export default function Hero() {
                     <div className="text__content">
                         <h1>
                             Olá, eu sou <br />
-                            <span>Leonardo Quintanilha.</span>
+                            <strong>Leonardo Quintanilha.</strong>
                         </h1>
 
                         <p>
