@@ -73,6 +73,10 @@ export const ProjectsSection = styled.section`
             width: 30%;
             flex-direction: column;
             align-items: center;
+            transition: transform 0.3s ease;
+            &:hover{
+                transform: translateY(-.25rem);
+            }
         }
 
         .card__image {
