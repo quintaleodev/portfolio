@@ -14,12 +14,16 @@ export default function Hero() {
                             <strong>Leonardo Quintanilha.</strong>
                         </h1>
 
-                        <p>
-                            Desenvolvedor front-end com foco em React, criando sites modernos e
-                            responsivos. <br />
-                            Buscando aprender novas tecnologias e resolver problemas de código,
-                            a fim de criar experiências web incríveis.
-                        </p>
+                        <div className="text__content--text">
+                            <p>
+                                Desenvolvedor front-end com foco em React, criando sites modernos e
+                                responsivos. 
+                            </p>
+                            <p>
+                                Buscando aprender novas tecnologias e resolver problemas de código,
+                                a fim de criar experiências web incríveis.
+                            </p>
+                        </div>
                     </div>
                     <div className="image__content">
                         <img

@@ -96,3 +96,10 @@ body {
   background: var(--background-color-radient);
   
 }
+
+@media (min-width: 1024px) {
+
+  .container {
+    padding: var(--spacing-lg);
+  }
+}

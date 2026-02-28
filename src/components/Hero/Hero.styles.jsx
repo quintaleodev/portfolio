@@ -86,4 +86,24 @@ export const HeroSection = styled.section`
       max-width: 100%;
     }
   }
+
+  @media (min-width: 1024px) {
+
+    .hero__content {
+        align-items: stretch;
+    }  
+    .text__content {
+      gap: var(--spacing-md);
+    }
+
+    h1{
+      padding-bottom: var(--spacing-md);
+    }
+
+    .text__content--text{
+      display: flex;
+      flex-direction: column;
+      gap: var(--spacing-md);
+    }
+  }
 `;
