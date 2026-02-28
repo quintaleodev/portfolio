@@ -60,7 +60,12 @@ export const ProjectsSection = styled.section`
     .card__info--title{
         font-size: var(--font-size-lg)
     }
-    .card__info--text{
+    
+    @media (min-width: 768px) {
 
+        .card__info{
+            align-items: center;
+            gap: var(--spacing-md);
+        }
     }
 `;
