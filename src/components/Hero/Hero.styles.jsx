@@ -61,4 +61,29 @@ export const HeroSection = styled.section`
     );
 
   }
+
+  @media (min-width: 768px) {
+
+    .hero__content {
+      position: static;
+      align-items: center;
+      
+    }
+
+    .text__content {
+      position: static;
+      width: auto;
+    }
+
+    .image__content {
+      position: static;
+      height: auto;
+      width: auto;
+    }
+
+    img{
+      margin-left: 0;
+      max-width: 100%;
+    }
+  }
 `;
