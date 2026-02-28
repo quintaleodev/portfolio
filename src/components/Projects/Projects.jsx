@@ -8,8 +8,8 @@ export default function Projects() {
             <div className="container">
                 <div className="projects__content">
                     <h2 className="projects__content--title">Meus Projetos</h2>
+                    <span>Confira alguns de meus trabalhos recentes:</span>
                     <div className="cards__container">
-                        <span>Confira alguns de meus trabalhos recentes:</span>
                         {projectData.projects.map((project, index) => (
                             <a className="card__container" 
                                 key={index}

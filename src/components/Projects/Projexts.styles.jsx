@@ -10,12 +10,8 @@ export const ProjectsSection = styled.section`
 
     .projects__content--title {
 
-        font-size: var(--font-size-lg);
-
-        width: 100%;
         text-align: center;
-        border-bottom: 1px solid var(--title-line-color);
-        padding-bottom: var(--spacing-sm);
+
     }
     
     .cards__container {
@@ -34,7 +30,6 @@ export const ProjectsSection = styled.section`
         padding: var(--spacing-md);
         background: var(--color-bg-main);
         
-        //border: 1px solid var(--title-line-color);
         border-radius: .5rem;
         
         color: var(--color-text-main);
@@ -66,6 +61,26 @@ export const ProjectsSection = styled.section`
         .card__info{
             align-items: center;
             gap: var(--spacing-md);
+            width: 100%;
+        }
+    }
+
+    @media (min-width: 1024px) {
+
+        .cards__container{
+            flex-direction: row;
+            gap: 0;
+            justify-content: space-evenly;
+        }
+
+        .card__container{
+            width: 30%;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .card__image {
+            width: 100%;
         }
     }
 `;

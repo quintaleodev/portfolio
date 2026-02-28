@@ -18,14 +18,6 @@ export const HeroSection = styled.section`
     z-index: 1;
     gap: var(--spacing-sm);
   }
-
-  h1 {
-
-    font-size: var(--font-size-xl);
-    border-bottom: 1px solid var(--title-line-color);
-    padding-bottom: var(--spacing-sm);
-    
-  }
   
   strong{
     

@@ -97,6 +97,21 @@ body {
   
 }
 
+h1 {
+    font-size: var(--font-size-xl);
+    border-bottom: 1px solid var(--title-line-color);
+    padding-bottom: var(--spacing-sm);
+    
+}
+
+h2 {
+  font-size: var(--font-size-lg);
+  width: 100%;
+  border-bottom: 1px solid var(--title-line-color);
+  padding-bottom: var(--spacing-sm);
+    
+}
+
 @media (min-width: 1024px) {
 
   .container {

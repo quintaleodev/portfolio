@@ -8,15 +8,7 @@ export const StackSection = styled.section`
         flex-direction: column;
         gap: var(--spacing-sm);
     }
-
-    .stack__content--title {
-
-        font-size: var(--font-size-lg);
-        width: 100%;
-        border-bottom: 1px solid var(--title-line-color);
-        padding-bottom: var(--spacing-sm);
-    }
-
+    
     .stack__content--content{
         
         display: flex;
