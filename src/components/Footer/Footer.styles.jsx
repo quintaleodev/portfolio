@@ -22,4 +22,11 @@ export const FooterSection = styled.section`
         width: 25px;
         filter: invert(1);
     }
+
+    @media (min-width: 768px) {
+
+        .footer__content{
+            align-items: center;
+        }
+    }
 `;
