@@ -109,12 +109,25 @@ h2 {
   width: 100%;
   border-bottom: 1px solid var(--title-line-color);
   padding-bottom: var(--spacing-sm);
+  color: var(--color-primary);
     
+}
+
+h3{
+    font-size: var(--font-size-lg)
 }
 
 @media (min-width: 1024px) {
 
   .container {
     padding: var(--spacing-lg);
+  }
+
+  h1{
+    font-size: var(--font-size-2xl);
+  }
+
+  h2{
+    font-size: var(--font-size-xl);
   }
 }

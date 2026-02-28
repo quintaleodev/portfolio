@@ -23,11 +23,6 @@ export const StackSection = styled.section`
         gap: var(--spacing-xs);
     }
 
-    .stack__category{
-
-        font-size: var(--font-size-lg);
-    }
-
     .stack__category--list{
         
         list-style: none;

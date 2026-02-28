@@ -51,10 +51,6 @@ export const ProjectsSection = styled.section`
         flex-direction: column;
         gap: var(--spacing-sm);
     }
-
-    .card__info--title{
-        font-size: var(--font-size-lg)
-    }
     
     @media (min-width: 768px) {
 
