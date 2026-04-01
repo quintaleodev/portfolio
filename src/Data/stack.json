@@ -1,15 +1,15 @@
 {
   "fundamentos": [
-    { "name": "HTML", "logo": "src/assets/logos/html5.svg" },
-    { "name": "CSS", "logo": "src/assets/logos/css3.svg" },
-    { "name": "JavaScript", "logo": "src/assets/logos/javascript.svg" }
+    { "name": "HTML", "logo": "html5" },
+    { "name": "CSS", "logo": "css3" },
+    { "name": "JavaScript", "logo": "javascript" }
   ],
   "framework": [
-    { "name": "React", "logo": "src/assets/logos/react.svg" }
+    { "name": "React", "logo": "react" }
   ],
   "ferramentas": [
-    { "name": "Git", "logo": "src/assets/logos/git.svg" },
-    { "name": "Vite", "logo": "src/assets/logos/vite.svg" },
-    { "name": "Figma", "logo": "src/assets/logos/figma.svg" }
+    { "name": "Git", "logo": "git" },
+    { "name": "Vite", "logo": "vite" },
+    { "name": "Figma", "logo": "figma" }
   ]
 }

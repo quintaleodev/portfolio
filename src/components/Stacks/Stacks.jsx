@@ -1,6 +1,24 @@
 import stackData from "../../Data/stack.json";
 import { StackSection} from "./Stack.styles.jsx";
 
+import html5 from "../../assets/logos/html5.svg";
+import css3 from "../../assets/logos/css3.svg";
+import javascript from "../../assets/logos/javascript.svg";
+import react from "../../assets/logos/react.svg";
+import git from "../../assets/logos/git.svg";
+import vite from "../../assets/logos/vite.svg";
+import figma from "../../assets/logos/figma.svg";
+
+const logos = {
+  html5,
+  css3,
+  javascript,
+  react,
+  git,
+  vite,
+  figma,
+};
+
 export default function Stack() {
   return (
     <StackSection>
@@ -14,7 +32,7 @@ export default function Stack() {
                 <ul className="stack__category--list">
                   {items.map((tech) => (
                     <li className="tech" key={tech.name}>
-                      <img className="tech--logo" src={tech.logo} 
+                      <img className="tech--logo" src={logos[tech.logo]} 
                             alt={`${tech.name} logo`} 
                       />
                       <span className="tech--name">{tech.name}</span>
