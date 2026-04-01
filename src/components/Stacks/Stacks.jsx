@@ -20,6 +20,7 @@ const logos = {
 };
 
 export default function Stack() {
+  console.log(logos);
   return (
     <StackSection>
       <div className="container">
