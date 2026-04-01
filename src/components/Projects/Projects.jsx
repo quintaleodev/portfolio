@@ -1,5 +1,5 @@
 import projectData from "../../Data/projects.json";
-import { ProjectsSection } from "./Projexts.styles.jsx";
+import { ProjectsSection } from "./Projects.styles.jsx";
 
 export default function Projects() {
 
