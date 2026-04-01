@@ -1,6 +1,16 @@
 import projectData from "../../Data/projects.json";
 import { ProjectsSection } from "./Projects.styles.jsx";
 
+import workingCat from "../../assets/images/workingCat.gif";
+import workingCat2 from "../../assets/images/workingCat2.gif";
+import workingCat3 from "../../assets/images/workingCat3.gif";
+
+const images = {
+  workingCat,
+  workingCat2,
+  workingCat3,
+};
+
 export default function Projects() {
 
     return (
@@ -18,7 +28,7 @@ export default function Projects() {
                                 rel="noopener noreferrer"
                             >
                                 <img className="card__image" 
-                                    src={project.image} 
+                                    src={images[project.image]} 
                                     alt={project.name}
                                 />
                                 <div className="card__info">
