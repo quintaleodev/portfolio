@@ -1,6 +1,9 @@
 import contactData from "../../Data/contacts.json"; 
 import { FooterSection } from "./Footer.styles"
 
+import githubLogo from "../../assets/logos/github.svg";
+import linkedinLogo from "../../assets/logos/linkedin.svg";
+
 export default function Footer(){
     return (
         <FooterSection>
@@ -16,7 +19,7 @@ export default function Footer(){
                         rel="noopener noreferrer"
                         >
                             <img className="contact__logo" 
-                                src="src/assets/logos/github.svg" 
+                                src={githubLogo} 
                                 alt="Github logo" 
                             />
                         </a>
@@ -26,7 +29,7 @@ export default function Footer(){
                         rel="noopener noreferrer"
                         >
                             <img className="contact__logo" 
-                                src="src/assets/logos/linkedin.svg" 
+                                src={linkedinLogo} 
                                 alt="linkedin logo" 
                             />
                         </a>
