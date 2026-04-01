@@ -1,16 +1,87 @@
-# React + Vite
+![Preview do projeto](./src/assets/preview.png)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# 💼 Portfólio - Leonardo Quintanilha
 
-Currently, two official plugins are available:
+Este é o meu portfólio pessoal desenvolvido com foco em apresentar meus projetos, habilidades e evolução como desenvolvedor front-end.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🔗 **Acesse o projeto online:**
+👉 https://quintaleodev.vercel.app
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🚀 Tecnologias utilizadas
 
-## Expanding the ESLint configuration
+* HTML5
+* CSS3
+* JavaScript
+* React
+* Vite
+* Git
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 📌 Funcionalidades
+
+* Apresentação pessoal
+* Seção de projetos
+* Listagem de tecnologias
+* Links para contato (GitHub, LinkedIn e e-mail)
+* Layout responsivo (mobile-first)
+
+---
+
+## 🧠 Aprendizados
+
+Durante o desenvolvimento deste projeto, trabalhei e aprimorei:
+
+* Estruturação de componentes no React
+* Manipulação de dados com JSON
+* Organização de código em projetos front-end
+* Deploy utilizando Vercel
+* Boas práticas de responsividade
+
+---
+
+## 🚧 Status
+
+Projeto em desenvolvimento — novos projetos serão adicionados em breve.
+
+---
+
+## 📂 Como rodar o projeto localmente
+
+```bash
+# Clone o repositório
+git clone https://github.com/quintaleodev/portfolio.git
+
+# Acesse a pasta
+cd portfolio
+
+# Instale as dependências
+npm install
+
+# Rode o projeto
+npm run dev
+```
+
+---
+
+## 🌐 Deploy
+
+O projeto está hospedado na Vercel:
+
+👉 https://quintaleodev.vercel.app
+
+---
+
+## 📬 Contato
+
+* GitHub: https://github.com/quintaleodev
+* LinkedIn: https://www.linkedin.com/in/quintaleo-dev/
+* Email: quintaleo.dev@gmail.com
+
+---
+
+## 📄 Licença
+
+Este projeto é de uso pessoal para fim de estudos.
